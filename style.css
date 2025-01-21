@@ -1,6 +1,6 @@
 /* Diagnostic Styling */
 * {
-  outline: 2px solid gray;
+   /* outline: 2px solid gray; */
 } 
 
 /* temp background color */
@@ -14,6 +14,11 @@ body {
   place-content: center;
   height: 100vh;
 }
+
+svg { 
+  /* transform: scale(8); */
+   scale: 8;
+ }
 
 /* Flower Styling */
 #petals {
