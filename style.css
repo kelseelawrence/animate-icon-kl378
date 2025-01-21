@@ -1,6 +1,6 @@
 /* Diagnostic Styling */
 * {
-   /* outline: 2px solid gray; */
+   outline: 2px solid gray; 
 } 
 
 /* temp background color */
@@ -17,7 +17,7 @@ body {
 
 svg { 
   /* transform: scale(8); */
-   scale: 8;
+   scale: 5;
  }
 
 /* Flower Styling */
