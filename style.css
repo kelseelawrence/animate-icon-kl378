@@ -22,8 +22,6 @@ svg {
 
 /* Flower Styling */
 #petals {
-  stroke: black;
-  fill: none;
   rotate: 0deg;
   transform-origin: center center;
   transition: rotate 3s;
