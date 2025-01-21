@@ -22,9 +22,11 @@ svg {
 
 /* Flower Styling */
 #petals {
-   rotate: 0deg;
-    transform-origin: center center;
-    transition: rotate 3s;
+  stroke: black;
+  fill: none;
+  rotate: 0deg;
+  transform-origin: center center;
+  transition: rotate 3s;
   }
   
   #petals:hover {
