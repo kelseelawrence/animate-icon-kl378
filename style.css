@@ -15,7 +15,7 @@ body {
   height: 100vh;
 }
 
-
+/* Flower Styling */
 #petals {
    rotate: 0deg;
     transform-origin: center center;
@@ -26,12 +26,39 @@ body {
     rotate: 45deg;
   }
 
-  #left-stem { 
+  #left-petal { 
     transform-origin: bottom;
-    transition: slideInLeft 3s;
+    animation: slideInLeft 3s;
   }
 
-  #right-stem { 
+  #right-petal { 
     transform-origin: bottom;
-    transition: slideInRight 3s;
+    animation: slideInRight 3s;
+  }
+
+  /* Keyframes */
+  @keyframes slideInRight{ 
+    0%{
+      fill: red; 
+    }
+    
+    50%{
+      rotate: 360deg;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
+@keyframes slideInLeft{ 
+    0%{
+      fill: yellow; 
+    }
+    
+    50%{
+      rotate: -360deg;
+    }
+    100%{
+      opacity: 1;
+    }
   }
