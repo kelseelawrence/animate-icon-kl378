@@ -14,3 +14,24 @@ body {
   place-content: center;
   height: 100vh;
 }
+
+
+#petals {
+   rotate: 0deg;
+    transform-origin: center center;
+    transition: rotate 3s;
+  }
+  
+  #petals:hover {
+    rotate: 45deg;
+  }
+
+  #left-stem { 
+    transform-origin: bottom;
+    transition: slideInLeft 3s;
+  }
+
+  #right-stem { 
+    transform-origin: bottom;
+    transition: slideInRight 3s;
+  }
